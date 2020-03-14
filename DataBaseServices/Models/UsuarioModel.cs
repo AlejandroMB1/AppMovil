@@ -17,7 +17,7 @@ namespace DataBaseServices.Models
 
         public string Usuario { get; set; }
 
-        public int Edad { get; set; }
+        private int edad;
 
         private string correo;
 
@@ -67,6 +67,16 @@ namespace DataBaseServices.Models
             set
             {
                 numDocumento = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int Edad
+        {
+            get { return edad; }
+            set
+            {
+                edad = value;
                 OnPropertyChanged();
             }
         }

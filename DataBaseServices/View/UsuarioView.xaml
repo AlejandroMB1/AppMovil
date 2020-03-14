@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DataBaseServices.View.UsuarioView">
+    <ContentPage.Content>
+        <StackLayout Margin="10,100,10,0">
+            <Label Text="{Binding Usuario1.NumDocumento, StringFormat='Identificacion: {0}'}"></Label>
+            <Label Text="{Binding Usuario1.Nombres, StringFormat='Nombres: {0}'}"></Label>
+            <Label Text="{Binding Usuario1.Apellidos, StringFormat='Apellidos: {0}'}"></Label>
+            <Label Text="{Binding Usuario1.Edad, StringFormat='Edad: {0}'}"></Label>
+            <Label Text="{Binding Usuario1.Contrasenia, StringFormat='Pass: {0}'}"></Label>
+            <Label Text="{Binding Usuario1.Correo, StringFormat='Email: {0}'}"></Label>
+            <Label Text="{Binding DatoGuardado}" FontSize="30"></Label>
+            <Button Text="Guardar" Command="{Binding GuardarDatosCommand}"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
