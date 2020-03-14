@@ -1,12 +1,20 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Text;
+using DataBaseServices.Models;
+using SQLiteNetExtensions.Attributes;
 
 namespace DataBaseServices.Models
 {
     public class CarroModel : NotificationObjectModel
     {
         #region Properties
+        [PrimaryKey, AutoIncrement]
+        public int IDCarro { get; set; }
+
+        [ForeignKey(typeof(UsuarioModel))]
+        public int IDUsuario { get; set; }
 
         private int pasajeros; //Propagables
 

@@ -6,7 +6,7 @@ using SQLite;
 //Clase singleTon de lectura Base de datos 
 namespace DataBaseServices.Services.DataBase
 {
-    class DataBase
+    public class DataBase
     {
         public readonly SQLiteAsyncConnection connection;
         public DataBase(string dbPath)
