@@ -25,21 +25,24 @@ namespace DataBaseServices.ViewModels
             Carro = new CarroModel()
             {
                 Marca = "Audi",
-                Color = "Azul"
+                Color = "Azul",
+                Pasajeros = 3
             };
 
             CarroVista = new CarroModel() 
             { 
                 Marca = "Chevrolet",
-                Color = "Blanco"
-            
+                Color = "Blanco",
+                Pasajeros = 4
+
             };
 
             ActualizarDatosCommand = new Command(() => ActualizarDatos(), () => true);
 
             if (Application.Current.Properties.ContainsKey("ValorGuardado"))
             {
-                DatoGuardado = (int)Application.Current.Properties["ValorGuardado"];
+                var datoGuardado = (int)Application.Current.Properties["ValorGuardado"];
+                DatoGuardado = Convert.ToInt32(DatoGuardado);
             }
 
         }
@@ -51,6 +54,7 @@ namespace DataBaseServices.ViewModels
         {
             CarroVista.Marca = Carro.Marca;
             CarroVista.Color = Carro.Color;
+            CarroVista.Pasajeros = Carro.Pasajeros;
 
         }
 

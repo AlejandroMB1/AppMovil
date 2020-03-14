@@ -56,3 +56,13 @@ C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices.iOS\obj\iPhoneSimu
 C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices.iOS\obj\iPhoneSimulator\Debug\DataBaseServices.iOS.csproj.CopyComplete
 C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices.iOS\obj\iPhoneSimulator\Debug\DataBaseServices.iOS.exe
 C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices.iOS\obj\iPhoneSimulator\Debug\DataBaseServices.iOS.pdb
+C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
+C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices.iOS\bin\iPhoneSimulator\Debug\SQLiteNetExtensions.dll
+C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices.iOS\bin\iPhoneSimulator\Debug\SQLiteNetExtensions.pdb
+C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices.iOS\bin\iPhoneSimulator\Debug\SQLiteNetExtensionsAsync.dll
+C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices.iOS\bin\iPhoneSimulator\Debug\SQLiteNetExtensionsAsync.pdb
+C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
+C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.provider.sqlite3.dll

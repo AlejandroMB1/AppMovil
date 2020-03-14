@@ -8,7 +8,7 @@ C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices\obj\Debug\netstand
 C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices\obj\Debug\netstandard2.0\View\CarroView.xaml.g.cs
 C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices\obj\Debug\netstandard2.0\DataBaseServices.AssemblyInfoInputs.cache
 C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices\obj\Debug\netstandard2.0\DataBaseServices.AssemblyInfo.cs
-C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices\obj\Debug\netstandard2.0\DataBaseServices.dll
 C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices\obj\Debug\netstandard2.0\ref\DataBaseServices.dll
 C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices\obj\Debug\netstandard2.0\DataBaseServices.pdb
+C:\Users\pc01a\source\repos\DataBaseServices\DataBaseServices\obj\Debug\netstandard2.0\XamlC.stamp

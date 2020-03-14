@@ -9,15 +9,18 @@
         <StackLayout Margin="10,100,10,0">
             <Label Text="{Binding CarroVista.Marca}"></Label>
             <Label Text="{Binding CarroVista.Year}"></Label>
-            <Label Text="{Binding CarroVista.Modelo}"></Label>
+            <!--<Label Text="{Binding CarroVista.Modelo}"></Label>-->
             <Label Text="{Binding CarroVista.Color}"></Label>
-            <Label Text="{Binding CarroVista.Tanque}"></Label>
+            <!--<Label Text="{Binding CarroVista.Tanque}"></Label>-->
+            <Label Text="{Binding CarroVista.Pasajeros}"></Label>
             <Entry Text="{Binding Carro.Marca}"></Entry>
-            <Entry Text="{Binding Carro.Year}"></Entry>
-            <Entry Text="{Binding Carro.Modelo}"></Entry>
+            <!--<Entry Text="{Binding Carro.Year}"></Entry>-->
+            <!--<Entry Text="{Binding Carro.Modelo}"></Entry>-->
             <Entry Text="{Binding Carro.Color}"></Entry>
-            <Entry Text="{Binding Carro.Tanque}"></Entry>
-            <Label Text="{Binding DatoGuardado}" FontSize="30"></Label>
+            <!--<Entry Text="{Binding Carro.Tanque}"></Entry>-->
+            <Label Text="{Binding Carro.Pasajeros}"></Label>
+            <!--<Label Text="{Binding DatoGuardado}" FontSize="30"></Label>-->
+            
             <Button Text="Actualizar" Command="{Binding ActualizarDatosCommand}"></Button>
         </StackLayout>
     </ContentPage.Content>
